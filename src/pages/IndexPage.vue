@@ -91,9 +91,9 @@
               >
                 Pedidos que cabem na mochila
               </div>
-              <div>
+              <div class="row q-mt-md">
                 <CardPedidos
-                  class="col-xs-12 col-sm-12 justify-around items-center q-pa-sm q-my-sm"
+                  class="col-xs-12 col-sm-6 justify-around items-center q-pa-sm"
                   v-for="entrega in entregasSelecionadas"
                   :key="entrega.id"
                   :nomeDestinatario="entrega.destinatario"

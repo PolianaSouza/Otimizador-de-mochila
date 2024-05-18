@@ -1,8 +1,6 @@
 <template>
   <div>
-    <q-card
-      class="col-xs-12 col-sm-12 justify-around items-center q-pa-sm q-my-sm"
-    >
+    <q-card class="q-pa-sm q-px-md cardEntregas">
       <p class="text-indigo-10">
         <strong class="text-dark">Nome:</strong>
         {{ nomeDestinatario }}
@@ -40,3 +38,10 @@ const props = defineProps({
   },
 });
 </script>
+
+<style scoped>
+.cardEntregas {
+  height: 100%;
+  min-height: 150px;
+}
+</style>
